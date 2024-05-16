@@ -1014,6 +1014,10 @@ footer#footer {
 		padding-top: 10px;
 		padding-bottom: 20px;
 	}
+	.hero-container .hero-section button,
+	.hero-container .right {
+		margin-top: 50px;
+	}
 	.get-certified-heading {
 		padding: 0 10px;
 	}
