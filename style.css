@@ -250,6 +250,9 @@ section#logo {
 	overflow: hidden;
 	margin: 0 3rem;
 }
+section#logo img {
+	max-width: 100%;
+}
 .logo-heading {
 	text-align: center;
 	margin-bottom: 2rem;
@@ -1010,6 +1013,12 @@ footer#footer {
 		padding-left: 0;
 		padding-top: 10px;
 		padding-bottom: 20px;
+	}
+	.get-certified-heading {
+		padding: 0 10px;
+	}
+	.get-certified-grid {
+		margin-top: 0px;
 	}
 	.get-card-grid-1 {
 		width: 350px;
