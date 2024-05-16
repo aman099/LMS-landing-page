@@ -56,10 +56,22 @@ prevBtn.addEventListener("click", () => {
 		left: card.clientWidth * 1,
 		behavior: "smooth",
 	});
+	if (innerWidth < 400) {
+		getCertifiedGridContainer.scrollBy({
+			left: card.clientWidth * 1 + 40,
+			behavior: "smooth",
+		});
+	}
 });
 nextBtn.addEventListener("click", () => {
 	getCertifiedGridContainer.scrollBy({
 		left: card.clientWidth * -1,
 		behavior: "smooth",
 	});
+	if (innerWidth < 400) {
+		getCertifiedGridContainer.scrollBy({
+			left: card.clientWidth * -1 - 40,
+			behavior: "smooth",
+		});
+	}
 });

@@ -846,6 +846,7 @@ footer#footer {
 	}
 	.get-card-grid-1 {
 		flex: 1 0 auto;
+		margin: 10px 10px;
 	}
 	.card-abs {
 		top: 70%;
@@ -990,11 +991,22 @@ footer#footer {
 	}
 }
 @media only screen and (max-width: 400px) {
+	.navbar-container nav#nav2 {
+		padding: 0 2rem;
+	}
+
+	.hero-container {
+		padding: 0 2rem;
+		padding-top: 4rem;
+	}
 	.hero-container .hero-section {
 		min-height: 0;
 		padding-left: 0;
 		padding-top: 10px;
 		padding-bottom: 20px;
+	}
+	.get-card-grid-1 {
+		width: 350px;
 	}
 	section#get-certified,
 	section#learn-free,
@@ -1003,7 +1015,8 @@ footer#footer {
 		padding: 0;
 	}
 	section#awards {
-		margin-left: 15px;
+		/* margin-left: 15px; */
+		padding: 10px;
 	}
 	.learn-free-cont,
 	.employee-container {
@@ -1015,5 +1028,10 @@ footer#footer {
 	}
 	.testi p {
 		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 350px) {
+	.get-card-grid-1 {
+		width: 310px;
 	}
 }
