@@ -994,6 +994,12 @@ footer#footer {
 	.navbar-container nav#nav2 {
 		padding: 0 2rem;
 	}
+	.navbar-container nav#nav2 header button {
+		font-size: 12px;
+		white-space: nowrap;
+		gap: 4px;
+		padding: 10px 20px;
+	}
 
 	.hero-container {
 		padding: 0 2rem;
