@@ -53,7 +53,7 @@ const card = document.querySelector(".get-card-grid-1");
 
 prevBtn.addEventListener("click", () => {
 	getCertifiedGridContainer.scrollBy({
-		left: card.clientWidth * 1,
+		left: card.clientWidth * 1 + 32,
 		behavior: "smooth",
 	});
 	if (innerWidth < 400) {
@@ -65,7 +65,7 @@ prevBtn.addEventListener("click", () => {
 });
 nextBtn.addEventListener("click", () => {
 	getCertifiedGridContainer.scrollBy({
-		left: card.clientWidth * -1,
+		left: card.clientWidth * -1 - 32,
 		behavior: "smooth",
 	});
 	if (innerWidth < 400) {
