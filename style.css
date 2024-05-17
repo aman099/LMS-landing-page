@@ -575,7 +575,8 @@ section#awards {
 	text-align: center;
 }
 .grid-awards .grid p:last-child {
-	font-size: 12px;
+	/* font-size: 12px; */
+	font-size: 14px;
 }
 .grid-awards .grid p.winner {
 	font-weight: 500;
@@ -1006,7 +1007,8 @@ footer#footer {
 
 	.hero-container {
 		padding: 0 2rem;
-		padding-top: 4rem;
+		/* padding-top: 4rem; */
+		padding-top: 4.36rem;
 	}
 	.hero-container .hero-section {
 		min-height: 0;
