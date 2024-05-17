@@ -250,8 +250,9 @@ section#logo {
 	overflow: hidden;
 	margin: 0 3rem;
 }
-section#logo img {
-	max-width: 100%;
+section#logo .logos .logo img {
+	/* max-width: 100%; */
+	width: 11rem;
 }
 .logo-heading {
 	text-align: center;
@@ -263,8 +264,8 @@ section#logo img {
 	grid-template-columns: repeat(5, 1fr); */
 	display: flex;
 	align-items: center;
-	gap: 4rem;
-	overflow: hidden;
+	gap: 2rem;
+	/* overflow: hidden; */
 	/*  */
 	animation: slide 20s infinite linear;
 }
@@ -954,6 +955,7 @@ footer#footer {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
+		justify-content: center;
 		gap: 0rem;
 		overflow: hidden;
 		animation: none;
