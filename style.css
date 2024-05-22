@@ -47,8 +47,8 @@
 	/* top: 116.2%; */
 	/* top: 100%; */
 	/* top: 60%; */
-	top: 59%;
-	left: 50%;
+	top: 0%;
+	left: 00%;
 	transform: translate(-50%, -50%);
 	background: #fff;
 	/* width: 800px;
@@ -81,6 +81,7 @@
 	/*  */
 	overflow-y: scroll;
 	height: 436px;
+	/* height: 442px; */
 }
 .wrapper .wrapper_left ul {
 	padding-top: 80px;
@@ -195,7 +196,8 @@
 	/*  */
 	padding: 10px;
 	overflow-y: scroll;
-	height: 379px;
+	/* height: 379px; */
+	height: 372px;
 }
 
 .ibm-wrapper-img {
@@ -410,6 +412,8 @@ ul li {
 	height: 65px;
 	display: grid;
 	align-items: center;
+	/*  */
+	position: relative;
 }
 .navbar-container nav#nav2 header button {
 	font-size: 14px;
@@ -1080,7 +1084,8 @@ footer#footer {
 /* Media query */
 @media only screen and (max-width: 1100px) {
 	.wrapper {
-		top: 69.4%;
+		/* top: 69.4%; */
+		left: 372px !important;
 	}
 }
 
@@ -1420,5 +1425,21 @@ footer#footer {
 @media only screen and (max-width: 350px) {
 	.get-card-grid-1 {
 		width: 310px;
+	}
+}
+
+/* For changing Heights */
+@media only screen and (max-height: 1150px) {
+	.wrapper {
+		/* top: 31%; */
+		top: 304px;
+		left: 400px;
+	}
+}
+@media only screen and (max-height: 1400px) {
+	.wrapper {
+		/* top: 31%; */
+		top: 300px;
+		/* left: 400px; */
 	}
 }
