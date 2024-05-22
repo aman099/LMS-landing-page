@@ -15,6 +15,3744 @@ const docPageTemplate = {
 		{
 			tag: "div",
 			attributes: {
+				class: "overlay2",
+			},
+		},
+		{
+			tag: "div",
+			attributes: {
+				class: "wrapper",
+			},
+			children: [
+				{
+					tag: "div",
+					attributes: {
+						class: "wrapper_title",
+					},
+					children: [
+						{
+							tag: "p",
+							content: "Categories",
+						},
+					],
+				},
+				{
+					tag: "div",
+					attributes: {
+						class: "wrapper-grid",
+					},
+					children: [
+						{
+							tag: "div",
+							attributes: {
+								class: "wrapper_left",
+							},
+							children: [
+								{
+									tag: "ul",
+									children: [
+										{
+											tag: "li",
+											attributes: {
+												class: "active",
+												"data-li": "generative-ai",
+											},
+											content: "<p>Data Science & Business Analytics</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "ai-machine",
+											},
+											content: "<p>AI & Machine Learning</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "project-management",
+											},
+											content: "<p>Project Management</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "cyber-security",
+											},
+											content: "<p>Cyber Security</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "cloud-computing",
+											},
+											content: "<p>Cloud Computing</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "devops",
+											},
+											content: "<p>Devops</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "business-leadership",
+											},
+											content: "<p>Business & Leadership</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "quality-management",
+											},
+											content: "<p>Quality Management</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "software-development",
+											},
+											content: "<p>Software Development</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "agile-scrum",
+											},
+											content: "<p>Agile & Scrum</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "it-service",
+											},
+											content: "<p>IT Service & Architecture</p>",
+										},
+										{
+											tag: "li",
+											attributes: {
+												"data-li": "digital-marketing",
+											},
+											content: "<p>Digital Marketing</p>",
+										},
+									],
+								},
+							],
+						},
+						{
+							tag: "div",
+							attributes: {
+								class: "wrapper_right",
+							},
+							children: [
+								{
+									tag: "div",
+									attributes: {
+										class: "container-right",
+									},
+									children: [
+										{
+											tag: "div",
+											attributes: {
+												class: "item generative-ai",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Purdue.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Applied Generative AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Purdue.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Applied Generative AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Purdue.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Applied Generative AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Purdue.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Applied Generative AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Purdue.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Applied Generative AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Generative AI",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item data-science",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/ihub.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Data Science Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/ihub.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Data Science Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/ihub.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Data Science Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/ihub.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Data Science Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/ihub.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Data Science Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Data Science & Business Analytics",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item ai-machine",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in AI Specialization",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore AI & Machine Learning",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item project-management",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Project-manage.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Post Graduate program in Project Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Project-manage.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Post Graduate program in Project Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Project-manage.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Post Graduate program in Project Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Project-manage.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Post Graduate program in Project Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/Project-manage.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Post Graduate program in Project Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Project Management",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item cyber-security",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cyber Security",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cyber Security",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cyber Security",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cyber Security",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cyber Security",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Cyber Security",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item cloud-computing",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cloud Computing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cloud Computing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cloud Computing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cloud Computing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Cloud Computing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Cloud Computing",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item devops",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Devops",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Devops",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Devops",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Devops",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Devops",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Cloud Computing",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item business-leadership",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Business Leadership",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Business Leadership",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Business Leadership",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Business Leadership",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Business Leadership",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Business Leadership",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item quality-management",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Business Leadership",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item quality-management",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Quality Management",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Quality Management",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item software-development",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Software Development",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Software Development",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Software Development",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Software Development",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Software Development",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Software Development",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item agile-scrum",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Agile Scrum",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Agile Scrum",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Agile Scrum",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Agile Scrum",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content: "Professional Certificate program in Agile Scrum",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Agile Scrum",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item it-service",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in IT Services & Architecture",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in IT Services & Architecture",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in IT Services & Architecture",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in IT Services & Architecture",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in IT Services & Architecture",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore IT Service & Architecture",
+														},
+													],
+												},
+											],
+										},
+										{
+											tag: "div",
+											attributes: {
+												class: "item digital-marketing",
+												style: "display: none;",
+											},
+											children: [
+												{
+													tag: "div",
+													attributes: {
+														class: "cards-container",
+													},
+													children: [
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/IBM.svg",
+																				alt: "",
+																				class: "ibm-wrapper-img",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Digital Marketing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Digital Marketing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/caltech.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Digital Marketing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Digital Marketing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+														{
+															tag: "div",
+															attributes: {
+																class: "card",
+															},
+															children: [
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "img-cont",
+																	},
+																	children: [
+																		{
+																			tag: "img",
+																			attributes: {
+																				src: "./assets/mit-college.svg",
+																				alt: "",
+																			},
+																		},
+																	],
+																},
+																{
+																	tag: "p",
+																	content:
+																		"Professional Certificate program in Digital Marketing",
+																},
+																{
+																	tag: "div",
+																	attributes: {
+																		class: "duration-cont",
+																	},
+																	children: [
+																		{
+																			tag: "span",
+																			content: "Cohort starts: 31 May, 2024",
+																		},
+																		{
+																			tag: "span",
+																			content: "| 4 Months",
+																		},
+																	],
+																},
+															],
+														},
+													],
+												},
+												{
+													tag: "div",
+													attributes: {
+														class: "item_info",
+													},
+													children: [
+														{
+															tag: "button",
+															attributes: {
+																class: "outlined-btn",
+															},
+															content: "Explore Digital Marketing",
+														},
+													],
+												},
+											],
+										},
+									],
+								},
+							],
+						},
+					],
+				},
+			],
+		},
+		{
+			tag: "div",
+			attributes: {
+				class: "downside-navbar-container",
+			},
+			children: [
+				{
+					tag: "div",
+					attributes: {
+						class: "navbar-cont-1",
+					},
+					children: [
+						{
+							tag: "nav",
+							attributes: {
+								id: "nav1",
+								class: "container is-fullhd",
+							},
+							children: [
+								{
+									tag: "div",
+									attributes: {
+										class: "",
+									},
+								},
+								{
+									tag: "header",
+									children: [
+										{
+											tag: "p",
+											attributes: {
+												class: "request-a-callback-para",
+											},
+											children: [
+												{
+													tag: "span",
+													children: [
+														{
+															tag: "i",
+															attributes: {
+																class: "fa-solid fa-mobile",
+															},
+														},
+													],
+												},
+												{
+													content: "Request a Callback",
+												},
+											],
+										},
+									],
+								},
+								{
+									tag: "div",
+									attributes: {
+										class: "",
+									},
+								},
+								{
+									tag: "p",
+									attributes: {
+										class: "call-us-on",
+									},
+									content: "<span></span>Call us on &nbsp; <span>1800-212-7688</span>",
+								},
+								{
+									tag: "ul",
+									children: [
+										{
+											tag: "li",
+											children: [
+												{
+													tag: "button",
+													attributes: {
+														class: "primary-btn live-chat-btn",
+													},
+													content:
+														"<span><i class='fa-regular fa-envelope'></i></span>&nbsp; Live Chat",
+												},
+											],
+										},
+									],
+								},
+							],
+						},
+					],
+				},
+			],
+		},
+		{
+			tag: "div",
+			attributes: {
 				class: "navbar-container",
 			},
 			children: [
@@ -153,57 +3891,62 @@ const docPageTemplate = {
 											},
 										},
 										{
-											tag: "button",
+											tag: "div",
 											attributes: {
-												class: "primary-btn",
+												class: "all-courses-btn-container",
 											},
 											children: [
 												{
-													tag: "div",
+													tag: "button",
 													attributes: {
-														class: "grids-decoration",
+														class: "primary-btn",
 													},
 													children: [
 														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
-														},
-														{
-															tag: "span",
-															content: "",
+															tag: "div",
+															attributes: {
+																class: "grids-decoration",
+															},
+															children: [
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+																{
+																	tag: "span",
+																	content: "",
+																},
+															],
 														},
 													],
-												},
-												{
-													tag: "content",
 													content: "All Courses",
 												},
 											],
